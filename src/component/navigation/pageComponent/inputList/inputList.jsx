@@ -6,7 +6,7 @@ function InputList() {
       <div className="text-center p-8">
         <p className="font-bold text-3xl">Our Popular Courses</p>
       </div>
-      <div className="grid grid-cols-3 gap-10 ml-32 p-8">
+      <div className="grid md:grid-cols-3 md:w-[70rem] gap-10 place-content-center p-8 sm:grid-cols-1">
         <input
           type="text"
           className="border-solid border-4 h-10 bg-stone-200 border-b-pink-900"

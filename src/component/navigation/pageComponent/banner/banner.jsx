@@ -12,7 +12,7 @@ function Banner() {
           <p className="text-3xl font-bold">
             Become a Full Stack Developer with MERN Stack
           </p>
-          <div className="grid grid-cols-2 gap-10 mt-4 ">
+          <div className="lg:grid grid-cols-2  flex flex-col-reverse gap-10 mt-4">
             <div className="">
               <p className="text-momo text-sm text-justify">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -27,7 +27,10 @@ function Banner() {
                 Lorem Ipsum.
               </p>
             </div>
-            <div className="mr-2">
+            <div
+              className="mr-2 bg-pink-700 sm:bg-slate-900
+        "
+            >
               <img
                 src={download}
                 height="100%"
