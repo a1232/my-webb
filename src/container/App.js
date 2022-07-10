@@ -10,6 +10,7 @@ import Login from "../component/navigation/pageComponent/pages/login";
 import { useState } from "react";
 
 function App() {
+  // for push
   const [isAuth, setIsAuth] = useState(false);
   return (
     <div className="App">
